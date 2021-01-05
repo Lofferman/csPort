@@ -105,6 +105,25 @@ footer{
     height: 25vh;
     background:#242423;
     width: auto;
+    color: #ffffff;
+    position: relative;
+    .contact{
+        .label{
+            font-size: 2rem;
+        }
+        .input{
+
+        }
+    }
+    .info{
+        div{
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            margin: auto;
+        }
+    }
 }
 
 .item {
@@ -181,16 +200,24 @@ footer{
 .cptn02 .cptn .fa:hover {
     opacity: 1;
 }
-.cptn02 .cptn h3 {
-    color: #fff;
+.cptn02 .cptn h2 {
+    color: #ffffff;
     margin-top: 10px;
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 2em;
     font-weight: normal;
 }
 .cptn02 .cptn p {
     color: #6a6a6a;
     font-size: 14px;
+}
+.cptn02 .cptn button {
+   background-color: #F5CB5C;
+    color: black;
+    font-size: 1.25em;
+    max-height: 40px;
+    text-align: left;
+
 }
 .cptn02:hover img {
     right: 40%;
